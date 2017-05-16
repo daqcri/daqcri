@@ -565,7 +565,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #655E7A;
 }
 #portfolio-work .block .portfolio-contant ul img {
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 #portfolio-work .block .portfolio-contant .overly {
@@ -595,6 +595,17 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .mix {
   display: none;
+}
+
+#portfolio-work .portfolio-contant h3 {
+  font-size: 22px;
+}
+
+#teams {
+  position: relative;
+  left: 70px;
+ /* margin-left: 63px;*/
+
 }
 
 .teammember p {

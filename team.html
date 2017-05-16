@@ -26,38 +26,31 @@ permalink: /teams/
             <div class="block">
               <div class="portfolio-menu">
                 <ul>
-                    <li class="filter" data-filter="all">All</li>
                     <li class="filter" data-filter=".Current">Current</li>
                     <li class="filter" data-filter=".Former">Former</li>
                  
                 </ul>
               </div> 
           
-              <div class="portfolio-contant">
+              <div class="portfolio-contant" id="teams">
                 <ul id="portfolio-contant-active">
               {% for post in site.categories.teams %}
               {% if post.type == "Current" %}
                   <li class="mix Current">
                       <img border="1" src="{{ site.baseurl }}/img/portfolio/{{post.img}}"> 
                       <div class="teammember">
-                      <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
+                      <a href="{{ post.link }}" class="bold">
                              <h3 style="color:#655E7A"> {{ post.name }}</h3></a>
                               <h4>{{ post.position }}</h4>
-              <!--                 {% if post.link != null %} -->
-                              <p><a style="color:#000" href="{{ post.link }}"> 
-                               Link</a></p>
-                      <!--         {% endif %} -->
                        </div>
                   </li>
                 {% else %}
                  <li class="mix Former">
                       <img border="1" src="{{ site.baseurl }}/img/portfolio/{{post.img}}"> 
                       <div class="teammember">
-                      <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
+                     <a href="{{ post.link }}" class="bold">
                              <h3 style="color:#655E7A"> {{ post.name }}</h3></a>
                               <h4>{{ post.position }}</h4>
-                              <p><a style="color:#000" href="{{ post.link }}"> 
-                               Link</a></p>
                        </div>
                   </li>
 

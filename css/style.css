@@ -32,3 +32,21 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.team-area {
+  padding: 15px;
+  width: 200%;
+  position: relative;
+/*  border-bottom: 1px dotted #ddd;*/
+}
+
+.team-area a:link, .team-area a:visited {
+  font-size: 20px;
+  color: #333;
+}
+
+.team-area a:hover {
+  color: #0D0017;
+}
+
+

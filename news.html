@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project
-permalink: /projects/
+title: News
+permalink: /news/
 ---
 <!-- Slider Start -->
 <section id="global-header">
@@ -9,20 +9,20 @@ permalink: /projects/
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Get the latest on what we're doing</h1>
-          <p>Catch up with us, anytime and anywhere</p>
+          <h1>News</h1>
+          <p>Get the latest updates about QCRI</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-{% for post in site.categories.projects %}
+{% for post in site.categories.news %}
 <div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <h3 style="color:#655E7A">{{ post.title }}</h3>
   <p class="post-date">{{ post.date | date_to_long_string }}</p>
   <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
+    {{ post.content }}
   </p>
 </div>
 {% endfor %}

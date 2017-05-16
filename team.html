@@ -43,9 +43,10 @@ permalink: /teams/
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
                              <h3 style="color:#655E7A"> {{ post.name }}</h3></a>
                               <h4>{{ post.position }}</h4>
-                              <p>
-                              <a style="color:#000" href="{{ post.link }}"> 
-                               Link: {{ post.link }}</a></p>
+              <!--                 {% if post.link != null %} -->
+                              <p><a style="color:#000" href="{{ post.link }}"> 
+                               Link</a></p>
+                      <!--         {% endif %} -->
                        </div>
                   </li>
                 {% else %}
@@ -55,9 +56,8 @@ permalink: /teams/
                       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">
                              <h3 style="color:#655E7A"> {{ post.name }}</h3></a>
                               <h4>{{ post.position }}</h4>
-                              <p>
-                              <a style="color:#000" href="{{ post.link }}"> 
-                               Link: {{ post.link }}</a></p>
+                              <p><a style="color:#000" href="{{ post.link }}"> 
+                               Link</a></p>
                        </div>
                   </li>
 

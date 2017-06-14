@@ -1,7 +1,7 @@
 ---
 layout: post
 categories : [projects]
-title: "Data Forensics with Analytics (DAFNA)"
+title: "World Bank GeoTagger"
 author: 
 ---
 

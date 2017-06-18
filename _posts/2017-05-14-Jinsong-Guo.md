@@ -1,7 +1,7 @@
 ---
 layout: team
-name: Dr. Jorge Quiane-Ruiz
-position: Scientist
+name: Jinsong Guo
+position: Research Associate
 link: ""
 img: default.png
 type: Current

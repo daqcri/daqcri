@@ -1,7 +1,7 @@
 ---
 layout: team
-name: Dr. Paolo Papotti
-position: Scientist
+name: Mohammad Ebrahim A. Hasan
+position: Software Engineer
 link: ""
 img: default.png
 type: Current

@@ -1,6 +1,6 @@
 ---
 layout: team
-name: Mouhamadou Lamine Ba
+name: Nazia Attari
 position: Research Associate
 link: ""
 img: default.png

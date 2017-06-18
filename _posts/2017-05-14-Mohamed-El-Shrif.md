@@ -1,7 +1,7 @@
 ---
 layout: team
-name: "Dr. Ahmed K. Elmagarmid"
-position: Executive Director
+name: Dr. Mohamed M El Shrif
+position: Postdoctoral researcher
 link: ""
 img: default.png
 type: Current

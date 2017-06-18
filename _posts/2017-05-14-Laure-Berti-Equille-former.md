@@ -1,10 +1,10 @@
 ---
 layout: team
-name: Dr. Mourad Ouzzani
+name: Dr. Laure Berti-Equille
 position: Senior Scientist
 link: ""
 img: default.png
-type: Current
+type: Former
 categories : [teams]
 
 ---

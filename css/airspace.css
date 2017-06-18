@@ -549,17 +549,17 @@ font header .navbar-default .navbar-nav li a:hover {
   display: block;
   color: #fff;
 }
-#portfolio-work .block .portfolio-contant ul li a h2 {
+#portfolio-work .block .portfolio-contant ul li  h2 {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
 }
-#portfolio-work .block .portfolio-contant ul li a p {
+#portfolio-work .block .portfolio-contant ul li  p {
   font-size: 15px;
   text-align: center;
 }
-#portfolio-work .block .portfolio-contant ul li a span {
+#portfolio-work .block .portfolio-contant ul li  span {
   font-style: italic;
   font-size: 13px;
   color: #655E7A;
@@ -627,7 +627,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #publications {
   position: relative;
-  right: -30px;
+  right: -50px;
   padding-top: 50px;
   padding-right: 65px;
   padding-left: 25px;
@@ -722,6 +722,13 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-right: 45px;
   font-size: 25px;
 }
+
+.icon-team i {
+  color: #2C2C2C;
+  font-size: 15px;
+}
+
+
 .google-map {
   position: relative;
 }

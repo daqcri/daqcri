@@ -1,6 +1,6 @@
 ---
 layout: team
-name: Qing Chen
+name: Hosam K Al Meer
 position: Research Associate
 link: ""
 img: default.png

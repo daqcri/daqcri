@@ -39,9 +39,13 @@ permalink: /teams/
                   <li class="mix Current">
                       <img border="1" src="{{ site.baseurl }}/img/portfolio/{{post.img}}"> 
                       <div class="teammember">
-                      <a href="{{ post.link }}" class="bold">
-                             <h3 style="color:#655E7A"> {{ post.name }}</h3></a>
-                              <h4>{{ post.position }}</h4>
+                          <h3 style="color:#655E7A"> {{ post.name }}</h3>
+                          <h4>{{ post.position }}</h4>
+                              <ul class="icon-team">
+                                  <li>
+                                    <a href={{ post.link }}><i class="fa fa-link"></i></a>
+                                  </li>
+                              </ul>
                        </div>
                   </li>
                 {% else %}
@@ -51,6 +55,11 @@ permalink: /teams/
                      <a href="{{ post.link }}" class="bold">
                              <h3 style="color:#655E7A"> {{ post.name }}</h3></a>
                               <h4>{{ post.position }}</h4>
+                                <ul class="icon-team">
+                                  <li>
+                                    <a href={{ post.link }}><i class="fa fa-link"></i></a>
+                                  </li>
+                                </ul>
                        </div>
                   </li>
 

@@ -1,7 +1,7 @@
 ---
 layout: team
-name: Dr. Nan Tang
-position: Scientist
+name: Bertty Alfredo C. Rojas
+position: Research Associate
 link: ""
 img: default.png
 type: Current

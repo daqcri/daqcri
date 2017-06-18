@@ -4,7 +4,7 @@ name: Shuai Li
 position: Research Associate
 link: ""
 img: default.png
-type: Current
+type: Former
 categories : [teams]
 
 ---

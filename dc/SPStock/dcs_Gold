@@ -1,0 +1,7 @@
+The set of Denial Constraints:
+1.0:not(t1.Open<t1.Low)
+1.0:not(t1.Low>t1.Close)
+1.0:not(t1.High<t1.Low)
+1.0:not(t1.High<t1.Close)
+1.0:not(t1.Open>t1.High)
+1.0:not(t1.Date=t2.Date&t1.Ticker=t2.Ticker)

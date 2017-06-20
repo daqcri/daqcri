@@ -1,0 +1,8 @@
+The set of DCs defined by Human
+1.0:not(t1.City!=t2.City&t1.ZIP Code=t2.ZIP Code)
+1.0:not(t1.State!=t2.State&t1.ZIP Code=t2.ZIP Code)
+1.0:not(t1.ZIP Code!=t2.ZIP Code&t1.Phone Number=t2.Phone Number)
+1.0:not(t1.Measure Code=t2.Measure Code&t1.Measure Name!=t2.Measure Name)
+1.0:not(t1.Measure Code!=t2.Measure Code&t1.Measure Name=t2.Measure Name)
+1.0:not(t1.State=t2.State&t1.Measure Code=t2.Measure Code&t1.StateAvg!=t2.StateAvg)
+1.0:not(t1.Provider Number=t2.Provider Number&t1.Phone Number!=t2.Phone Number)

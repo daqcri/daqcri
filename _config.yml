@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: DA QCRI 
 url: ""
-baseurl: "/daqcri"
+baseurl: "/"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
